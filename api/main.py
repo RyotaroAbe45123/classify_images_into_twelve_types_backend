@@ -16,9 +16,3 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# app.post("/upload")
-# async def upload(file: UploadFile):
-#     data = await file.read()
-#     print(type(data))
-#     return data.filename
